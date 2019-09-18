@@ -29,7 +29,19 @@ router.patch('/:id',
     requireAuth, 
     async (req: Request, res: Response) => {
         //@TODO try it yourself
-        res.send(500).send("not implemented")
+        let { id } = req.params;
+        const item = await FeedItem.findByPk(id);
+        const newCaption = req.body.caption;
+        if(!item )
+        {
+            return res.status(400).send({ message: 'there no feed whit this id ' });
+        }
+        item.update({caption:newCaption},{
+            where: {
+                id:id
+            }
+        })
+        res.send(`not ${item.caption} implemented`);
 });
 
 
