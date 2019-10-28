@@ -1,0 +1,1000 @@
+   18  ll
+   19  sudo mkdir /home/opt
+   20  sudo mkdir -p /home/opt
+   21  cd /
+   22  ll
+   23  ls opt/
+   24  top
+   25  docker -v
+   26  docker run hello-world
+   27  sudo docker run hello-world
+   28  docker run -it ubuntu bash
+   29  sudo docker run -it ubuntu bash
+   30  ll
+   31  sudo docker run -it ubuntu bash
+   32  sudo docker images
+   33  sudo apt-get 
+   34  sudo apt-get install git
+   35  pwd
+   36  cd Documents/
+   37  ls
+   38  ll
+   39  mkdir docker
+   40  llcd docker/
+   41  cd docker/
+   42  pwd
+   43  git clone https://github.com/docker/doodle.git
+   44  sudo apt install git
+   45  ping 8.8.8.8
+   46  sudo apt-get install git
+   47  sudo apt-get update 
+   48  ++
+   49  sudo apt-get upgrade
+   50  sudo apt install git
+   51  pwd
+   52  cd Documents/
+   53  ll
+   54  cd docker/
+   55  pwd
+   56  git clone https://github.com/docker/doodle.git
+   57  cd doodle/cheers2019 && docker build -t salam9/cheers2019 .
+   58  sudo docker build -t salam9/cheers2019 .
+   59  docker run -it --rm salam9/cheers2019
+   60  su
+   61  docker run -it --rm salam9/cheers2019
+   62  sudo docker run -it --rm salam9/cheers2019
+   63  su
+   64  sudo docker login && docker push salam9/cheers2019
+   65  sudo usermod -a -G docker $USER
+   66  ls -lah /var/run/docker.sock
+   67  sudo groupadd docker
+   68  sudo usermod -aG docker $USER
+   69  quit
+   70  exit
+   71  docker run hello-world
+   72  cd Documents/docker/
+   73  cd doodle/cheers2019/
+   74  ll
+   75  newgrp docker 
+   76  cd Documents/docker/
+   77  pwd
+   78  docker run hello-world
+   79  cd doodle/cheers2019/
+   80  sudo docker login && docker push salam9/cheers2019
+   81  ls ~/.docker/
+   82  sudo usermod -aG docker $USER
+   83  newgrp docker 
+   84  cd doodle/cheers2019/
+   85  docker build -t salam9/cheers2019 .
+   86  docker run -it --rm salam9/cheers2019
+   87  docker login && docker push salam9/cheers2019
+   88  cd ../../
+   89  cd ../
+   90  git clone https://github.com/scheeles/cloud-developer.git
+   91  cd cloud-developer/
+   92  ll
+   93  git status
+   94  git branch
+   95  git branch -a
+   96  git checkout remotes/origin/03-docker
+   97  git branch -a
+   98  ll
+   99  cd course-03/
+  100  ll
+  101  cd exercises/
+  102  ll
+  103  docker run hello-world
+  104  ls ~/.docker
+  105  ls ~/.docker/
+  106  find ../../../ -name .docker
+  107  find ../../../ -type f -name .docker
+  108  sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+  109  ls root/snap/docker
+  110  sudo ls root
+  111  sudo ls /root/snap/docker
+  112  sudo ll /root/snap/docker/
+  113  sudo ls -altr /root/snap/docker/
+  114  sudo ls -altr /root/snap/docker/384
+  115  sudo cat /root/snap/docker/384/.docker
+  116  sudo cd /root/snap/docker/384/.
+  117  cd /root/snap/docker/384/.
+  118  cd /root/snap/docker/384/
+  119  sudo 
+  120  ls /root/snap/docker/384/
+  121  sudo apt-get remove docker docker-engine docker.io containerd runc
+  122  ls /root/snap/docker/384/
+  123  sudo ls /root/snap/docker/384/
+  124  sudo ls /root/snap/docker/
+  125  sudo ls /root/snap/
+  126  sudo ls /root/snap/*
+  127  sudo ls /root/snap/
+  128  sudo ls /root/snap/docker/
+  129  sudo ls /root/snap/docker/current
+  130  sudo ls /root/snap/docker/current/
+  131  sudo ls /root/snap/docker/common
+  132  sudo ls /root/snap/docker/common/
+  133  sudo rm -rf /root/snap/docker
+  134  sudo ls /root/snap/docker/
+  135  sudo ls /root/snap/
+  136  sudo ls /root/snap
+  137  sudo ls /root/
+  138  cd ../../
+  139  ll
+  140  sudo apt-get remove docker docker-engine docker.io containerd runc
+  141  sudo apt-get update
+  142  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  143  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  144  sudo apt-key fingerprint 0EBFCD88
+  145  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  146     $(lsb_release -cs) \
+  147     stable"
+  148  sudo apt-get update
+  149  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  150  sudo docker run hello-world
+  151  ls ~/.
+  152  ls ~/.do*
+  153  ls /var/lib/docker
+  154  sudo ls /var/lib/docker
+  155  bash
+  156  cd 
+  157  pwd
+  158  cd Documents/cloud-developer/course-03/exercises/
+  159  ls
+  160  cd udacity-c3-restapi-feed/
+  161  ls ../../../../../Downloads/
+  162  sudo  ../../../../../Downloads/
+  163  cat  ../../../../../Downloads/
+  164  cat  ../../../../../Downloads/udacong.bash 
+  165  sudo  ../../../../../Downloads/udacong.bash 
+  166  export AWS_MEDIA_BUCKET =udagram-salam-dev;
+  167  export AWS_PROFILE =default;
+  168  export AWS_REGION = eu-west-3;
+  169  export JWT_SECRET = Helloworld;
+  170  export PSTGRESS_DATABASE = udagramsalamdev;
+  171  export PSTGRESS_HOST = udagramsalamdev.c8rlogitpdgn.eu-west-3.rds.amazonaws.com;
+  172  export PSTGRESS_PASSWORD = cdndSalam;
+  173  export PSTGRESS_PROFILE = default;
+  174  export PSTGRESS_USERNAM = udagramsalamdev
+  175  export AWS_MEDIA_BUCKET =udagram-salam-dev;
+  176  export AWS_MEDIA_BUCKET = udagram-salam-dev ;
+  177  ex
+  178  export $AWS_MEDIA_BUCKET = udagram-salam-dev ;
+  179  export $AWS_MEDIA_BUCKET = udagram-salam-dev 
+  180  export AWS_MEDIA_BUCKET=udagram-salam-dev 
+  181  cat  ../../../../../Downloads/udacong.bash 
+  182  export AWS_MEDIA_BUCKET=udagram-salam-dev;
+  183  export AWS_PROFILE=default;
+  184  export AWS_REGION=eu-west-3;
+  185  export JWT_SECRET=Helloworld;
+  186  export PSTGRESS_DATABASE=udagramsalamdev;
+  187  export PSTGRESS_HOST=udagramsalamdev.c8rlogitpdgn.eu-west-3.rds.amazonaws.com;
+  188  export PSTGRESS_PASSWORD=cdndSalam;
+  189  export PSTGRESS_PROFILE=default;
+  190  export PSTGRESS_USERNAM=udagramsalamdev
+  191  echo $PSTGRESS_*
+  192  echo $PSTGRESS_PASSWORD 
+  193  echo $PSTGRESS_PASS*
+  194  npm 
+  195  sudo apt install npm
+  196  npm install
+  197  apt-get update
+  198  cd Documents/cloud-developer/
+  199  cd course-03/exercises/udacity-c3-restapi-feed/
+  200  ll
+  201  npm install
+  202  sudo apt install npm
+  203  npm install
+  204  npm run dev
+  205  cat src/config/config.ts 
+  206  echo $POSTGRESS
+  207  echo  PSTGRESS_USERNAM
+  208  echo  $PSTGRESS_USERNAM
+  209  echo $PSTGRESS_USERN
+  210  cat src/config/config.ts 
+  211  export POSTGRESS_DB=udagramsalamdev
+  212  export POSTGRESS_HOST=udagramsalamdev.c8rlogitpdgn.eu-west-3.rds.amazonaws.com
+  213  npm run dev
+  214  cat src/config/config.ts 
+  215  echo $JWT_SECRET
+  216  export JWT_SECRET=Helloworld
+  217  export AWS_BUCKET=udagram-salam-dev
+  218  cat src/config/config.ts 
+  219  export AWS_PROFILE=default
+  220  export AWS_REGION=eu-west-3
+  221  export POSTGRESS_HOST=udagramsalamdev.c8rlogitpdgn.eu-west-3.rds.amazonaws.com
+  222  cat src/config/config.ts 
+  223  export POSTGRESS_DB=udagramsalamdev
+  224  export POSTGRESS_PASSWORD=cdndSalam
+  225  export POSTGRESS_USERNAME=udagramsalamdev
+  226  npm run dev
+  227  node -v
+  228  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+  229  sudo apt-get install -y nodejs
+  230  node -v
+  231  npm run dev
+  232  ll
+  233  cat Dockerfile
+  234  salam9
+  235  docker build - salam9
+  236  docker build -tsalam9/udacity-restapi-feed .
+  237  cat src/config/config.ts 
+  238  sudo ls /root/
+  239  aws
+  240  pip --version
+  241  sudo apt install python3-venv python3-pip
+  242  pip --version
+  243  pip3 --version
+  244  python --version
+  245  python3 --version
+  246  pip3 install awscli --upgrade --user
+  247  aws --version
+  248  sudo apt  install awscli
+  249  aws --version
+  250  sudo apt  install awscli
+  251  aws --version
+  252  aws
+  253  pip3 install awscli --upgrade --user
+  254  aws --version
+  255  pip3 install awscli --upgrade --user
+  256  aws --version
+  257  ls -a ~
+  258  pip3 --version
+  259  pip3 install awscli
+  260  sudo pip3 install awscli
+  261  aws --version
+  262  pip3 list -o
+  263  aws
+  264  pip3 list -o
+  265  aws --version
+  266  pip3 list -o
+  267  aws --version
+  268  pip3 install --upgrade --user awscli
+  269  aws --version
+  270  which aws
+  271  which python
+  272  ls -al /usr/bin/aws
+  273  ls -al /usr/bin/python
+  274  which python3
+  275  ls -al /usr/bin/python3
+  276  s -a ~
+  277  ls -a ~
+  278  cat ~/.profile 
+  279  echo $HOME
+  280  npm install -g ionic
+  281  sudo npm install -g ionic
+  282  ionic -v
+  283  pwd
+  284  cd Documents/
+  285  pwd
+  286  ll
+  287  ionic start myApp tabs
+  288  ll
+  289  cd myApp/
+  290  ll
+  291  npm run
+  292  cd ../
+  293  cd myApp/
+  294  ionic serve
+  295  cd ../
+  296  ll
+  297  rm -r myApp/
+  298  rm -rf myApp/
+  299  ll
+  300  aws configure
+  301  ls $HOME/.aws
+  302  sudo ls $HOME/.aws
+  303  sudo ls $HOME
+  304  which aws
+  305  ls /usr/bin/aws
+  306  ls /usr/bin/aws/
+  307  ls /usr/bin/aws
+  308  aws configure
+  309  ls ~/.aws
+  310  ls ~/.aws/config 
+  311  cat ~/.aws/config 
+  312  cat ~/.aws/credentials 
+  313  ls $HOME/.aws
+  314  cd cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  315  docker run --publish 8080:8080 -v $HOME/.aws:/root/.aws --env PSTGRESS_HOST=$PSTGRESS_HOST --env PSTGRESS_USERNAM=$PSTGRESS_USERNAM --env POSTGRESS_PASSWORD=$POSTGRESS_PASSWORD --env POSTGRESS_DB=$POSTGRESS_DB --env AWS_REGION=$AWS_REGION --env AWS_PROFILE=$AWS_PROFILE --env AWS_BUCKET=$AWS_BUCKET --env JWT_SECRET=$JWT_SECRET --name feed salam9/udacity-restapi-feed
+  316  ssh myserver.gov
+  317  internal
+  318  ll
+  319  cat src/config/config.ts 
+  320  echo POSTGRESS_USERNAME
+  321  echo $POSTGRESS_USERNAME
+  322  ls ~/.profile 
+  323  cat ~/.profile 
+  324  vim ~/.profile 
+  325  sudo apt install vim
+  326  vim ~/.profile 
+  327  cat ~/.profile 
+  328  source ~/.profile 
+  329  npm run dev
+  330  echo $PSTGRESS_DB
+  331  echo $JWT_SECRET 
+  332  cat src/config/config.ts 
+  333  echo $PS
+  334  ======_-=
+  335  cat 
+  336  cat ~/.profile 
+  337  npm run dev
+  338  cd ../udacity-c3-restapi-user/
+  339  npm run dev
+  340  npm i
+  341  npm run dev
+  342  git bransh -a
+  343  git branch -a
+  344  echo $AWS_*
+  345  echo $AWS_BUCKET 
+  346  echo $AWS_PROFILE 
+  347  cd Documents/
+  348  cd cloud-developer/
+  349  cd course-03/exercises/udacity-c3-restapi-user/
+  350  npm run dev
+  351  vim ~/.profile 
+  352  source ~/.profile 
+  353  exit
+  354  bash
+  355  cd Documents/cloud-developer/course-03/exercises/udacity-c3-restapi-user/
+  356  npm run dev
+  357  export AWS_BUCKET=udagram-salam-dev
+  358  export AWS_PROFILE=default
+  359  echo $AWS_BUCKET 
+  360  export AWS_BUCKET=udagram-salam-dev1
+  361  echo $AWS_BUCKET 
+  362  export AWS_BUCKET=udagram-salam-dev
+  363  export $AWS_BUCKET=udagram-salam-dev
+  364  export AWS_BUCKET=udagram-salam-dev
+  365  echo $AWS_BUCKET 
+  366  export AWS_REGION=eu-west-3
+  367  export JWT_SECRET=Helloworld
+  368  export PSTGRESS_DB=udagramsalamdev
+  369  export PSTGRESS_HOST=udagramsalamdev.c8rlogitpdgn.eu-west-3.rds.amazonaws.com
+  370  export PSTGRESS_PASSWORD=cdndSalam
+  371  export PSTGRESS_PROFILE=default
+  372  export PSTGRESS_USERNAM=udagramsalamdev
+  373  npm run dev
+  374  cd Documents/cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  375  cat src/config/config.ts 
+  376  cd ../udacity-c3-restapi-user/
+  377  cat src/config/config.ts 
+  378  npm run dev
+  379  cd ../udacity-c3-restapi-feed/
+  380  npm run dev
+  381  man bash
+  382  ls ~/.*
+  383  cat ~/.bashrc 
+  384  cat /etc/environment
+  385  cat ~/.profile 
+  386  cat ~/.bash_
+  387  sudo -H gedit /etc/environment
+  388  sudo find / -name .bash_profile
+  389  cd 
+  390  sudo find / -name .bash_profile
+  391  cat ~/.profile 
+  392  cd -
+  393  npm run dev
+  394  source ~/.profile 
+  395  npm run dev
+  396  cat ~/.profile 
+  397  cat ../udacity-c3-restapi-user/src/config/config.ts 
+  398  set
+  399  mv src/config/config.ts src/config/config.ts.bkp
+  400  npm run dev
+  401  cp ../udacity-c3-restapi-user/src/config/config.ts ./src/config/.
+  402  ls src/config/
+  403  npm run dev
+  404  vim ~/.profile 
+  405  source ~/.profile 
+  406  npm run dev
+  407  exit
+  408  set
+  409  cd Documents/cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  410  npm run dev
+  411  cat src/config/config.ts
+  412  cd ../udacity-c3-restapi-user/
+  413  npm run dev
+  414  cat src/config/config.ts 
+  415  diff src/config/config.ts ../udacity-c3-restapi-feed/src/config/config.ts
+  416  sdiff src/config/config.ts ../udacity-c3-restapi-feed/src/config/config.ts
+  417  cd -
+  418  npm run dev
+  419  cat src/config/config.ts.bkp 
+  420  npm run dev
+  421  mv src/config/config.ts src/config/config.ts.new
+  422  ll src/config/config.ts.*
+  423  ll src/config/config.ts.bkp src/config/config.ts
+  424  mv src/config/config.ts.bkp src/config/config.ts
+  425  ll src/config/config.ts.*
+  426  ll src/config/config.ts*
+  427  npm run dev
+  428  vim ~/.profile 
+  429  cat src/config/config.ts
+  430  cat ~/.profile 
+  431  vim ~/.profile 
+  432  source ~/.profile 
+  433  echo $PSTGRESS_DB
+  434  cat src/config/config.ts
+  435  npm run dev
+  436  vim ~/.profile 
+  437  set | head 
+  438  set | head -30
+  439  set | head -50
+  440  set | head -80
+  441  unst PSTGRESS_USERNAM
+  442  unset PSTGRESS_USERNAM
+  443  echo $PSTGRESS_USERNAM
+  444  set | head -80
+  445  echo $PSTGRESS_DB
+  446  unset PSTGRESS_DB
+  447  echo $PSTGRESS_DB
+  448  unset PSTGRESS_HOST
+  449  unset PSTGRESS_PASSWORD
+  450  set | head -80
+  451  set | head -80 | grep AWS
+  452  unset AWS_BUCKET
+  453  unset AWS_PROFILE
+  454  unset AWS_REGION
+  455  set | head -80 | grep AWS
+  456  set | head -80 | grep PSTGRESS
+  457  npm run dev
+  458  exit
+  459  cd Documents/
+  460  cd cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  461  npm run dev
+  462  export PSTGRESS_HOST=udagramsalamdev.c8rlogitpdgn.eu-west-3.rds.amazonaws.com
+  463  npm run dev
+  464  cat ~/.aws/
+  465  cat ~/.aws/credentials 
+  466  cat ~/.aws/config 
+  467  export PSTGRESS_DB=udagramsalamdev
+  468  export PSTGRESS_PASSWORD=cdndSalam
+  469  export PSTGRESS_USERNAM=udagramsalamdev
+  470  export JWT_SECRET=Helloworld
+  471  export AWS_REGION=eu-west-3
+  472  export AWS_PROFILE=default
+  473  export AWS_BUCKET=udagram-salam-dev
+  474  npm run dev
+  475  echo $AWS_BUCKET
+  476  gedit ~/.profile
+  477  ls /etc/profile.d
+  478  gedit ~/.profile
+  479  source ~/.profile
+  480  bash
+  481  cd Documents/cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  482  npm run dwv
+  483  npm run dev
+  484  gedit ~/.profile
+  485  cd Documents/cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  486  pwd
+  487  ll
+  488  pwd
+  489  npm run dev
+  490  ls src/config/config.ts
+  491  ls src/config/
+  492  mv src/config/config.ts src/config/config.ts.bkp
+  493  ls src/config/
+  494  mv src/config/config.ts.bkp src/config/config.ts
+  495  ls src/config/
+  496  cat src/config/config.ts
+  497  cat src/config/config.ts.new 
+  498  cat src/config/config.ts
+  499  mv src/config/config.ts src/config/config.ts.bkp
+  500  cat src/config/config.ts
+  501  ls src/config/
+  502  mv src/config/config.ts.new src/config/config.ts
+  503  ls src/config/
+  504  cat src/config/config.ts
+  505  npm run dev
+  506  cat src/config/config.ts
+  507  cat src/config/config.ts.bkp 
+  508  process.env.POSTGRESS_USERNAME,
+  509  vim src/config/config.ts
+  510  cat src/config/config.ts
+  511  cat ~/.profile 
+  512  npm run dev
+  513  POSTGRESS_USERNAMEPOSTGRESS_USERNAME
+  514  set POSTGRESS_USERNAME
+  515  echo POSTGRESS_USERNAME
+  516  echo $POSTGRESS_USERNAME
+  517  export $POSTGRESS_USERNAME=udagramsalamdev
+  518  export POSTGRESS_USERNAME=udagramsalamdev
+  519  echo $POSTGRESS_USERNAME
+  520  npm run dev
+  521  exit
+  522  echo $POSTGRESS_USERNAME
+  523  export POSTGRESS_USERNAME=udagramsalamdev
+  524  echo $POSTGRESS_USERNAME
+  525  set man
+  526  man set
+  527  echo $POSTGRESS_USERNAME
+  528  echo $POSTGRESS_DB
+  529  cat .profile 
+  530  cd Documents/cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  531  npm run dev
+  532  echo $POSTGRESS_USERNAME
+  533  set POSTGRESS_USERNAME
+  534  echo $POSTGRESS_USERNAME
+  535  unset POSTGRESS_USERNAME
+  536  echo $POSTGRESS_USERNAME
+  537  npm run dev
+  538  set POSTGRESS_USERNAME=udagramsalamdev
+  539  echo $POSTGRESS_USERNAME
+  540  export POSTGRESS_USERNAME=udagramsalamdev
+  541  echo $POSTGRESS_USERNAME
+  542  set | head -50
+  543  vim ~/.profile 
+  544  set | head -50
+  545  echo $POSTGRESS_USERNAME
+  546  pwd
+  547  exit
+  548  pwd
+  549  cd Documents/cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  550  npm run dev
+  551  echo $POSTGRESS_USERNAME
+  552  export POSTGRESS_USERNAME=udagramsalamdev
+  553  echo $POSTGRESS_USERNAME
+  554  npm run dev
+  555  exit
+  556  curl http://localhot:8080/api/v0/feed
+  557  curl http://localhost:8080/api/v0/feed
+  558  cd Documents/cloud-developer/course-03/exercises/
+  559  ll
+  560  cd udacity-c3-deployment/
+  561  ll
+  562  cd docker/
+  563  ll
+  564  cat Dockerfile
+  565  cat nginx.conf 
+  566  subl
+  567  subl docker-compose.yaml 
+  568  reverseproxy
+  569  docker build -t salam9/reverseproxy .
+  570  subl ~/.profile 
+  571  ll
+  572  subl docker-compose-build.yaml
+  573  docker-compose up
+  574  sudo apt  install docker-compose
+  575  docker-compose up
+  576  source ~/.profile 
+  577  printenv POSTGRESS_HOST
+  578  cd Documents/cloud-developer/course-03/exercises/udacity-c3-restapi-feed/
+  579  npm run dev
+  580  printenv
+  581  echo $POSTGRESS_USERNAME
+  582  printenv POSTGRESS_USERNAME
+  583  printenv | grep POSTGRESS
+  584  printenv | grep POSTGRESS*
+  585  printenv | grep POSTG*
+  586  PSTGRESS
+  587  printenv | grep PSTGRESS
+  588  cat src/config/config.ts
+  589  cat src/config/config.ts.bkp 
+  590  cat ~/.profile 
+  591  vim ~/.profile 
+  592  source ~/.profile 
+  593  printenv | grep POSTG*
+  594  mv src/config/config.ts.bkp src/config/config.ts.p
+  595  ll src/config/config.ts8
+  596  ll src/config/config.ts*
+  597  mv src/config/config.ts src/config/config.ts.new
+  598  mv src/config/config.ts.p src/config/config.ts
+  599  npm run dev
+  600  mv src/config/config.ts src/config/config.bkp
+  601  ll src/config/config.ts*
+  602  ll src/config/config.ts
+  603  ll src/config/config.ts*
+  604  cat src/config/config.ts.new
+  605  npm run dev
+  606  mv src/config/config.bkp src/config/config.ts.bkp
+  607  mv src/config/config.bkp src/config/config.ts
+  608  mv src/config/config.ts.bkp src/config/config.ts
+  609  ll src/config/config.ts
+  610  ll src/config/config.ts*
+  611  mv src/config/config.ts src/config/config.ts.bkp
+  612  ll src/config/config.ts*
+  613  cp src/config/config.ts.bkp src/config/config.ts
+  614  ll src/config/config.ts*
+  615  npm run dev
+  616  cp src/config/config.ts.new src/config/config.ts
+  617  npm run dev
+  618  cat src/config/config.ts
+  619  printenv POSTGRESS_USERNAME
+  620  echo $POSTGRESS_USERNAME
+  621  grep POSTGRESS_USERNAME ~/.profile 
+  622  tail ~/.profile 
+  623  vim  ~/.profile 
+  624  source ~/.profile 
+  625  printenv POSTGRESS_USERNAME
+  626  npm run dev
+  627  cp src/config/config.ts.bkp src/config/config.ts
+  628  npm run dev
+  629  cat src/config/config.ts
+  630  docker run --publish 8080:8080 -v $HOME/.aws:/root/.aws --env POSTGRESS_HOST=$POSTGRESS_HOST --env POSTGRESS_USERNAME=$POSTGRESS_USERNAME --env POSTGRESS_PASSWORD=$POSTGRESS_PASSWORD --env POSTGRESS_DB=$POSTGRESS_DB --env AWS_REGION=$AWS_REGION --env AWS_PROFILE=$AWS_PROFILE --env AWS_BUCKET=$AWS_BUCKET --env JWT_SECRET=$JWT_SECRET --name feed salam9/udacity-restapi-feed
+  631  docker images
+  632  docker run --publish 8080:8080 -v $HOME/.aws:/root/.aws --env POSTGRESS_HOST=$POSTGRESS_HOST --env POSTGRESS_USERNAME=$POSTGRESS_USERNAME --env POSTGRESS_PASSWORD=$POSTGRESS_PASSWORD --env POSTGRESS_DB=$POSTGRESS_DB --env AWS_REGION=$AWS_REGION --env AWS_PROFILE=$AWS_PROFILE --env AWS_BUCKET=$AWS_BUCKET --env JWT_SECRET=$JWT_SECRET --name feed1 salam9/udacity-restapi-feed
+  633  docker images
+  634  docker image
+  635  docker image ls
+  636  docker run --publish 8080:8080 -v $HOME/.aws:/root/.aws --env POSTGRESS_HOST=$POSTGRESS_HOST --env POSTGRESS_USERNAME=$POSTGRESS_USERNAME --env POSTGRESS_PASSWORD=$POSTGRESS_PASSWORD --env POSTGRESS_DB=$POSTGRESS_DB --env AWS_REGION=$AWS_REGION --env AWS_PROFILE=$AWS_PROFILE --env AWS_BUCKET=$AWS_BUCKET --env JWT_SECRET=$JWT_SECRET --name feed salam9/udacity-restapi-feed
+  637  docker run --publish 8080:8080 -v $HOME/.aws:/root/.aws --env POSTGRESS_HOST=$POSTGRESS_HOST --env POSTGRESS_USERNAME=$POSTGRESS_USERNAME --env POSTGRESS_PASSWORD=$POSTGRESS_PASSWORD --env POSTGRESS_DB=$POSTGRESS_DB --env AWS_REGION=$AWS_REGION --env AWS_PROFILE=$AWS_PROFILE --env AWS_BUCKET=$AWS_BUCKET --env JWT_SECRET=$JWT_SECRET --name feed1 salam9/udacity-restapi-feed
+  638  docker run --help
+  639  docker start --publish 8080:8080 -v $HOME/.aws:/root/.aws --env POSTGRESS_HOST=$POSTGRESS_HOST --env POSTGRESS_USERNAME=$POSTGRESS_USERNAME --env POSTGRESS_PASSWORD=$POSTGRESS_PASSWORD --env POSTGRESS_DB=$POSTGRESS_DB --env AWS_REGION=$AWS_REGION --env AWS_PROFILE=$AWS_PROFILE --env AWS_BUCKET=$AWS_BUCKET --env JWT_SECRET=$JWT_SECRET --name feed1 salam9/udacity-restapi-feed
+  640  docker start feed1
+  641  docker ps -a
+  642  docker stop feed1
+  643  docker ps -a
+  644  docker rm feed1
+  645  docker ps -a
+  646  docker rm feed
+  647  docker ps -a
+  648  docker rm hello-world
+  649  docker ps -a
+  650  docker rm hello-world
+  651  docker ps -a
+  652  docker rm 61cc0b7b0227
+  653  docker ps -a
+  654  docker images
+  655  docker push salam9/udacity-restapi-feed
+  656  git branch -a
+  657  cd ../
+  658  ll
+  659  cd -
+  660  docker images
+  661  docker run --publish 8080:8080 -v $HOME/.aws:/root/.aws --env POSTGRESS_HOST=$POSTGRESS_HOST --env POSTGRESS_USERNAME=$POSTGRESS_USERNAME --env POSTGRESS_PASSWORD=$POSTGRESS_PASSWORD --env POSTGRESS_DB=$POSTGRESS_DB --env AWS_REGION=$AWS_REGION --env AWS_PROFILE=$AWS_PROFILE --env AWS_BUCKET=$AWS_BUCKET --env JWT_SECRET=$JWT_SECRET --name feed salam9/udacity-restapi-feed
+  662  docker ps -a
+  663  docker rm feed
+  664  cd ../udacity-c3-restapi-user/
+  665  cat Dockerfile 
+  666  docker build -t salam9/udacity-restapi-user
+  667  history | build
+  668  history | grep build
+  669  docker build -t salam9/udacity-restapi-user
+  670  docker build -t salam9/udacity-restapi-user
+  671  docker build -t salam9/udacity-restapi-user .
+  672  docker images
+  673  npm run dev
+  674  cd ../
+  675  cd udacity-c3-frontend/
+  676  docker build -t salam9/udacity-frontend .
+  677  cd Documents/cloud-developer/course-03/exercises/udacity-c3-deployment/
+  678  docker images
+  679  docker-compose up
+  680  cd docker/
+  681  docker-compose up
+  682  ll
+  683  cat README.md
+  684  docker-compose -f docker-compose-build.yaml build --parallel
+  685  docker-compose -f docker-compose-build.yaml build --parallel 
+  686  cat Dockerfile
+  687  cat docker-compose.yaml 
+  688  cat docker-compose-build.yaml 
+  689  docker-compose -f docker-compose-build.yaml build --parallel 
+  690  history | grep push
+  691  docker push salam9/udacity-restapi-user
+  692  docker-compose -f docker-compose-build.yaml build --parallel 
+  693  cat README.md 
+  694  docker-compose up
+  695  docker push salam9/reverseproxy
+  696  history | grep push
+  697  docker push salam9/udacity-frontend
+  698  cd Documents/cloud-developer/course-03/exercises/udacity-c3-deployment/docker/
+  699  cat README.md 
+  700  docker-compose -f docker-compose-build.yaml build --parallel
+  701  docker-compose up
+  702  docker images
+  703  history | grep push
+  704  docker push salam9/reverseproxy
+  705  docker-compose -f docker-compose-build.yaml build --parallel
+  706  docker-compose up
+  707  cat README.md 
+  708  cat docker-compose.yaml 
+  709  printenv POSTGRESS_USERNAME
+  710  tail ~/.profile 
+  711  source ~/.profile
+  712  printenv POSTGRESS_USERNAME
+  713  docker-compose up
+  714  docker-compose -f docker-compose-build.yaml build --parallel
+  715  docker images
+  716  ll
+  717  subl docker-compose.yaml
+  718  cp docker-compose.yaml docker-compose.yaml.pkb
+  719  subl docker-compose.yaml
+  720  docker-compose up
+  721  cat docker-compose.yaml
+  722  cat docker-compose.yaml.pkb 
+  723  docker images
+  724  cat README.md 
+  725  docker-compose -f docker-compose-build.yaml build --parallel
+  726  cd ../../
+  727  cd ../
+  728  git status
+  729  git add .
+  730  git status
+  731  git commit -m "complete Docker course "
+  732  git status
+  733  cd ../
+  734  git status
+  735  git brach =a
+  736  git branch -a
+  737  git chrckout
+  738  git checkout remotes/origin/04-k8s
+  739  git commit -m "complete Docker course"
+  740  git checkout remotes/origin/04-k8s
+  741  git config --global user.email "salam9@outlook.com"
+  742  git config --global user.name "Abd ulsalam Alahmari
+  743  git config --global user.name "Abd ulsalam Alahmari"
+  744  git commit -m "complete Docker course"
+  745  git checkout remotes/origin/04-k8s
+  746  cd Documents/cloud-developer/course-03/exercises/
+  747  git status
+  748  ll
+  749  ll */
+  750  pip install awscli --upgrade 
+  751  pip3 install awscli --upgrade 
+  752  awscli -v
+  753  awscli -version
+  754  awscli 
+  755  awscli
+  756  aws --version
+  757  aws configure
+  758  curl --silent --location "https://github.com/weaveworks/eksctl/releases/download/latest_release/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+  759  sudo mv /tmp/eksctl /usr/local/bin
+  760  ll /tmp/eksctl 
+  761  ll /tmp/
+  762  ll /usr/local/bin
+  763  eksctl version
+  764  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+  765  chmod +x ./kubectl
+  766  sudo mv ./kubectl /usr/local/bin/kubectl
+  767  kubectl version
+  768  eksctl create cluster --name prod --version 1.14 --nodegroup-name standard-workers --node-type t3.medium --nodes 3 --nodes-min 1 --nodes-max 4 --node-ami auto
+  769  eksctl delete cluster --region=eu-west-3 --name=prod
+  770  eksctl create cluster --name prod --version 1.14 --nodegroup-name standard-workers --node-type t3.medium --nodes 3 --nodes-min 1 --nodes-max 4 --node-ami auto
+  771  eksctl create cluster --name prod --version 1.14 --nodegroup-name standard-workers --node-type t3.medium --nodes 3 --nodes-min 1 --nodes-max 4 \
+  772  eksctl delete cluster --region=eu-west-3 --name=prod
+  773  eksctl create cluster --name prod --version 1.14 --nodegroup-name standard-workers --node-type t3.medium --nodes 3 --nodes-min 1 --nodes-max 4 --node-ami auto
+  774  cd udacity-c3-deployment/
+  775  cd docker/
+  776  ll
+  777  docker-compose up
+  778  ps 
+  779  bash
+  780  cd Documents/cloud-developer/course-03/
+  781  ll
+  782  cd exercises/
+  783  ll
+  784  kubectl get svc
+  785  cd udacity-c3-deployment/k8s/
+  786  ll
+  787  cd pod-example/
+  788  ll
+  789  cat pod.yaml 
+  790  vim pod.yaml 
+  791  cat pod.yaml 
+  792  kubectl appl
+  793  kubectl apply -f pod.yaml 
+  794  kubectl git pod
+  795  kubectl get pod
+  796  kubectl logs -f pod-example
+  797  ll
+  798  vim pod.yaml 
+  799  kubectl logs -f pod-example
+  800  kubectl apply -f pod.yaml 
+  801  ll
+  802  cat ../reverseproxy-deployment.yaml 
+  803  vim pod.yaml 
+  804  kubectl apply -f pod.yaml 
+  805  cd ../
+  806  ll
+  807  kubectl apply -f backend-feed-deployment.yaml 
+  808  kubectl get pod
+  809  vim backend-user-deployment.yaml 
+  810  kubectl get pod
+  811  kubectl apply -f backend-user-deployment.yaml 
+  812  kubectl get pod
+  813  less backend-user-deployment.yaml 
+  814  kubectl get pod
+  815  less backend-feed-deployment.yaml 
+  816  kubectl get pod
+  817  less backend-user-deployment.yaml 
+  818  kubectl get pod
+  819  kubectl get deployment
+  820  kubectl get pod
+  821  kubectl logs -f backend-feed
+  822  kubectl logs -f backend-feed-76f994ccd9-xht4n
+  823  kubectl logs -f backend-user-67465676c9-9jkbz
+  824  cd ../
+  825  ll
+  826  cd ../
+  827  ll
+  828  kubectl logs -f backend-user-67465676c9-9jkbz
+  829  kubectl get pod
+  830  cd udacity-c3-deployment/
+  831  cd k8s/
+  832  ll
+  833  cd pod-example/
+  834  kubectl apply -f pod.yaml 
+  835  git status
+  836  git checkout pod.yaml
+  837  git status
+  838  kubectl apply -f pod.yaml 
+  839  kubectl get pod
+  840  kubectl get pods
+  841  kubectl logs -f pod-example
+  842  ll
+  843  cat pod.yaml 
+  844  cd Documents/cloud-developer/course-03/exercises/udacity-c3-deployment/k
+  845  kubectl logs -f ackend-feed-76f994ccd9-frvqv
+  846  kubectl logs -f backend-feed-76f994ccd9-frvqv
+  847  kubectl get pod
+  848  cd Documents/
+  849  cd cloud-developer/course-03/
+  850  ll
+  851  cd exercises/
+  852  git status
+  853  history 
+  854  kubectl get pods
+  855  kubectl get pod
+  856  kubectl get svc
+  857  kubectl get pod
+  858  cat udacity-c3-restapi-user/*,yaml
+  859  ll udacity-c3-restapi-user/
+  860  cd udacity-c3-deployment/
+  861  kubectl get svc
+  862  kubectl get pod
+  863  cd k8s/
+  864  kubectl get svc
+  865  kubectl get pod
+  866  cat backend-feed-deployment.yaml 
+  867  kubectl get svc
+  868  kubectl get pod
+  869  free -help
+  870  man free
+  871  whatis free
+  872  free
+  873  free -m
+  874  cd Documents/cloud-developer/
+  875  git sataus
+  876  git stataus
+  877  git status
+  878  git bransh
+  879  git branch
+  880  git branch -a
+  881  cd course-03/exercises/
+  882  cd udacity-c3-deployment/
+  883  ll
+  884  cd k8s/
+  885  ll
+  886  less backend-feed-deployment.yaml 
+  887  cd ../
+  888  ll
+  889  ll docker/
+  890  cd ../
+  891  ll
+  892  ll udacity-c3-restapi-feed/
+  893  git branch -a
+  894  git checkout 05-k8s-service-config
+  895  git branch -a
+  896  git branch 
+  897  ls udacity-c3-deployment/
+  898  ls udacity-c3-deployment/k8s/
+  899  cd udacity-c3-deployment/k8s/
+  900  ll
+  901  cat aws-secret.yaml
+  902  cat env-configmap.yaml
+  903  cat ~/.profile 
+  904  tail ~/.profile 
+  905  cat env-configmap.yaml
+  906  cat env-secret.yaml 
+  907  tail ~/.profile 
+  908  cat env-secret.yaml 
+  909  tail backend-feed-deployment.yaml 
+  910  less backend-feed-deployment.yaml 
+  911  vim backend-feed-deployment.yaml 
+  912  cat ~/.aws/credentials 
+  913  cat ~/.aws/config 
+  914  k
+  915  kubectl get svc
+  916  kubectl get nodes
+  917  ll
+  918  kubectl get pod
+  919  cat aws-secret.yaml
+  920  ll
+  921  subl backend-feed-deployment.yaml
+  922  tail ~/.profile 
+  923  env
+  924  printenv POSTGRESS_PASSWORD
+  925  printenv POSTGRESS_PASSWORD | base64 
+  926  printenv POSTGRESS_ | base64 
+  927  printenv POSTGRESS_USERNAME | base64 
+  928  ls
+  929  kubectl apply -f env-secret.yaml
+  930  kubectl apply -f env-configmap.yaml 
+  931  kubectl get secret
+  932  kubectl apply -f frontend-deployment.yaml 
+  933  kubectl apply -f frontend-service.yaml 
+  934  kubectl apply -f backend-user-deployment.yaml 
+  935  kubectl apply -f backend-user-service.yaml 
+  936  kubectl apply -f backend-feed-deployment.yaml 
+  937  kubectl apply -f backend-feed-service.yaml 
+  938  kubectl get pods
+  939  kubectl -help
+  940  kubectl log -help
+  941  kubectl logs -help
+  942  kubectl get pods
+  943  kubectl logs backend-user-67465676c9-xbdzv
+  944  kubectl get pods
+  945  kubectl logs backend-feed-7ccb6dd569-swdcx
+  946  subl reverseproxy-deployment.yaml 
+  947  kubectl apply -f reverseproxy-deployment.yaml 
+  948  cat ~/.aws/credentials 
+  949  base64 S1/UzTwWtx8YFo70aat39hKgAmspsHX133YWo+DV
+  950  echo S1/UzTwWtx8YFo70aat39hKgAmspsHX133YWo+DV | base64 
+  951  kubectl get pods
+  952  echo  | base64 
+  953  echo "hi"  | base64 
+  954  echo hi| base64 
+  955  echo "hi"  | base64 
+  956  echo | base64 
+  957  tail ~/.profile 
+  958  echo cdndSalam | base64 
+  959  echo udagramsalamdev | base64 
+  960  subl env-secret.yaml 
+  961  kubectl apply -f env-secret.yaml 
+  962  kubectl get secret
+  963  kubectl replace -f env-secret.yaml 
+  964  kubectl get secret
+  965  kubectl get pods
+  966  kubectl replace -f backend-user-deployment.yaml 
+  967  kubectl get pods
+  968  kubectl apply -f aws-secret.yaml 
+  969  kubectl get pods
+  970  kubectl logs kubectl replace -f
+  971  kubectl logs 
+  972  kubectl get pods
+  973  kubectl get serves
+  974  kubectl get services
+  975  kubectl port-forword
+  976  kubectl port-forward service/frontend
+  977  kubectl port-forward service/frontend 8100:8100
+  978  cat reverseproxy-deployment.yaml 
+  979  kubectl get services
+  980  kubectl get pods
+  981  kubectl logs backend-feed-7ccb6dd569-fdh7l
+  982  echo "cdndSalam" | base64 
+  983  echo "udagramsalamdev" | base64 
+  984  tail ~/.profile 
+  985  cat env-secret.yaml 
+  986  kubectl get pods
+  987  kubectl logs backend-user-67465676c9-9jkbz
+  988  kubectl get pods
+  989  kubectl get scv
+  990  kubectl get svc
+  991  kubectl logs backend-user-67465676c9-9jkbz
+  992  kubectl get pods
+  993  kubectl logs backend-feed-7ccb6dd569-pj6sw
+  994  kubectl get pods
+  995  docker images
+  996  kubectl get pods
+  997  kubectl logs backend-user-67465676c9-9jkbz
+  998  kubectl get pods
+  999  git logs backend-user-67465676c9-9jkbz
+ 1000  kubectl logs backend-user-67465676c9-9jkbz
+ 1001  kubectl get pods
+ 1002  kubectl logs backend-feed-7ccb6dd569-fdh7l
+ 1003  kubectl logs backend-feed-7ccb6dd569-swdcx
+ 1004  kubectl get pods
+ 1005  cat env-secret.yaml 
+ 1006  history| grep kubectl
+ 1007  kubectl get configmap
+ 1008  kubectl describe configmap
+ 1009  kubectl describe secret
+ 1010  kubectl get pods
+ 1011  kubectl describe backend-user-67465676c9-xbdzv
+ 1012  kubectl describe backend-feed-7ccb6dd569-swdcx
+ 1013  kubectl STATUS backend-feed-7ccb6dd569-swdcx
+ 1014  kubectl --help
+ 1015  cd Documents/
+ 1016  cd cloud-developer/course-03/
+ 1017  history > history.txt
